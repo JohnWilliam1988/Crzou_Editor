@@ -1,0 +1,45 @@
+<style>
+  /* Rulers
+——————————————————————————————————————*/
+
+  #ruler_corner {
+    background: var(--ruler-color);
+    grid-area: corner;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+  }
+
+  #ruler_x {
+    background: var(--ruler-color);
+    grid-area: rulerX;
+    height: 30px;
+    border-bottom: 1px solid;
+    border-left: 1px solid #777;
+    overflow: hidden;
+  }
+
+  #ruler_y {
+    background: var(--ruler-color);
+    grid-area: rulerY;
+    width: 15px;
+    border-right: 1px solid;
+    border-top: 1px solid #777;
+    overflow: hidden;
+  }
+
+  #ruler_x canvas {
+    float: left;
+  }
+</style>
+<div id="ruler_corner" style="background-color:rgb(242, 242, 242);"></div>
+<div id="ruler_x" style="background-color:rgb(242, 242, 242);">
+  <div>
+    <canvas height="30"></canvas>
+  </div>
+</div>
+<div id="ruler_y" style="background-color:rgb(242, 242, 242);">
+  <div>
+    <canvas width="30"></canvas>
+  </div>
+</div>
