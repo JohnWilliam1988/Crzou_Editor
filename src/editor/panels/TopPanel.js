@@ -923,7 +923,7 @@ class TopPanel {
     $id('tool_link_url').setAttribute('title', i18next.t('tools.set_link_url'))
     // register action to top panel buttons
     // $click($id('tool_source'), this.showSourceEditor.bind(this))
-    // $click($id('tool_wireframe'), this.clickWireframe.bind(this))
+    $click($id('tool_wireframe'), this.clickWireframe.bind(this))
     $click($id('tool_undo'), this.clickUndo.bind(this))
     $click($id('tool_redo'), this.clickRedo.bind(this))
     // $click($id('tool_clone'), this.clickClone.bind(this))
