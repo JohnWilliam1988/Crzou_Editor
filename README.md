@@ -78,3 +78,5 @@ svgEditor.setConfig({
 # Hosting
 SVGedit versions are deployed to:
 [![Deploys by Netlify](https://www.netlify.com/img/global/badges/netlify-color-accent.svg)](https://www.netlify.com)
+
+# John test
